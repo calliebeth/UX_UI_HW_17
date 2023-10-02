@@ -1,10 +1,13 @@
 html {
     background-color: #222222;
+    background-image: url(../images/bar.png);
+    background-repeat: no-repeat;
+    background-size: 100% 32%;
 }
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #222222;
+    background-color: none;
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -35,7 +38,6 @@ html {
     border-radius: 10px;
     
 }
-  
 
 h1 {
     font-family: 'Young Serif', serif;
@@ -48,9 +50,15 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 18pt;
+    margin: 0px 200px 50px 200px;  
+}
+
+.bio {
     color: white;
-    margin: 0px 200px 0px 200px;
+    font-size: 18pt;
+    background: #222222;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 .team {
@@ -69,15 +77,6 @@ h1 {
     text-align: center;
     font-size: 18px;
 }
-
-/*.teamphotos {
-    display: inline-block;
-    margin: 0px 200px 0px 200px;
-    width: 1000px;
-    padding: 20px;
-    text-align: center;
-    color: white;
-}*/
 
 .test {
     color: white;
